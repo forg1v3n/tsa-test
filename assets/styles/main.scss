@@ -20,3 +20,25 @@ h1.display-3 {
     margin-top: 0px;
     text-align: center;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    font-family: $my_font;
+    font-weight: bolder;
+    color: $primary_3;
+
+    .form-control {
+        background-color: $primary_1;
+        color: $primary_3;
+        margin-top: auto;
+        margin-left: 200px;
+        height: 47px;
+        width: 600px;
+        padding: 10px;
+        margin: 7px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+    }
+}
