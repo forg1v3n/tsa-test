@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+body {
+  background-color: white;
+}
+
+h1.display-3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  background-color: #EFF4F9;
+  color: #445566;
+  height: 120px;
+  width: auto;
+  margin-top: 0px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

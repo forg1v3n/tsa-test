@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+$primary_1: #EFF4F9;
+$primary_2: #1188EE;
+$primary_3: #17222D;
+$primary_4: #445566;
+$my_font: 'Nunito', sans-serif;
+
+body {
+    background-color: white;
+}
+
+h1.display-3 {
+    font-family: $my_font;
+    font-weight: bolder;
+    background-color: $primary_1;
+    color: $primary_4;
+    height: 120px;
+    width: auto;
+    margin-top: 0px;
+    text-align: center;
+}
