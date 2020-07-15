@@ -8,9 +8,9 @@ h1.display-3 {
   font-weight: bolder;
   background-color: #EFF4F9;
   color: #445566;
-  height: 120px;
+  height: 110px;
   width: auto;
-  margin-top: 0px;
+  margin-top: auto;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@ h1.display-3 {
   color: #17222D;
   height: 47px;
   width: 500px;
-  margin-top: 2px;
+  margin-top: 4px;
   margin-right: 5px;
   border: none;
   border-radius: 3px;
@@ -41,22 +41,21 @@ h1.display-3 {
 
 .form-group {
   letter-spacing: 1px;
-  margin-right: 75px;
+  margin-right: 35px;
   margin-top: 20px;
 }
 
 input[type=text] {
   width: 100%;
-  padding: 10px 10px;
-  margin: 8px 0px;
+  padding: 10px 15px;
+  margin: 8px auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-right: 6px;
 }
 
-#inputCpf, #inputAddress::-webkit-input-placeholder {
+#inputCpf, #inputAddress, #inputCep::-webkit-input-placeholder {
   color: #445566;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #inputAddress {
@@ -68,8 +67,95 @@ input[type=text] {
 
 #inputState {
   padding: auto;
-  margin: 78px;
+  margin: auto;
+  margin-left: 79px;
   margin-top: auto;
+  width: 242px;
+}
+
+#inputCep {
+  padding: auto;
+  margin: auto;
+  margin-top: 8px;
+  margin-right: auto;
+  width: 250px;
+}
+
+#inputCity {
+  padding: auto;
+  margin: auto;
+  margin-left: 80px;
+  margin-top: 0px;
   width: 245px;
+}
+
+label#inputState {
+  text-align: left;
+  padding: 3.8px;
+}
+
+label#inputCep {
+  padding: auto;
+}
+
+label#inputCity {
+  padding: 8px;
+}
+
+.payment {
+  margin-left: 480px;
+  margin-top: 12px;
+  font-family: "Nunito", sans-serif;
+}
+
+.payment h5 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #1188EE;
+}
+
+.payment hr {
+  margin-right: 360px;
+  opacity: 30%;
+  border-top: 2px solid #445566;
+}
+
+label.custom-control-label {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #17222D;
+}
+
+label#cardName {
+  margin-top: 13px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+label#inputExpiration {
+  margin-top: 13px;
+  margin-left: px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+#cardName {
+  padding: auto;
+  margin: auto;
+  margin-top: 8px;
+  margin-right: auto;
+  width: 250px;
+}
+
+select#inputMonth {
+  margin-top: auto;
+  margin-left: 41px;
+  width: 125px;
+}
+
+select#inputYear {
+  margin-top: -38px;
+  margin-left: 170px;
+  width: 123px;
 }
 /*# sourceMappingURL=main.css.map */
