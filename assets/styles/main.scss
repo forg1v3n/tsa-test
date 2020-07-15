@@ -136,7 +136,7 @@ label#cardName {
 
 label#inputExpiration {
     margin-top: 13px;
-    margin-left: px;
+    margin-left: 8px;
     font-family: $my_font;
     font-weight: bolder; 
 }
@@ -150,13 +150,46 @@ label#inputExpiration {
 }
 
 select#inputMonth {
+    background-color: $primary_1;
+    color: $primary_4;
+    font-weight: bolder;
     margin-top: auto;
-    margin-left: 41px;
+    margin-left: 45px;
     width: 125px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
 }
 
 select#inputYear {
+    background-color: $primary_1;
+    color: $primary_4;
+    font-weight: bolder;
     margin-top: -38px;
-    margin-left: 170px;
-    width: 123px;
+    margin-left: 185px;
+    width: 109px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+}
+
+input#cardName {
+    color: $primary_3;
+    font-weight: bolder;
+    background-color: $primary_1;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+}
+
+select#inputState.form-control {
+    color: $primary_4;
+    font-family: $my_font;
+    font-weight: bold;
+}
+
+select#inputCity.form-control {
+    color: $primary_4;
+    font-family: $my_font;
+    font-weight: bold;
 }
