@@ -14,6 +14,6 @@
 <h2>PrintScreen do Andamento:</h2>
 
 <p align="center">
-  <img src="my-test/assets/img/print.png" width="auto">
+  <img src="/assets/img/print.png" width="auto">
 
 <img src="https://img.shields.io/badge/The%20Dream-Came%20True-blue">
