@@ -89,6 +89,37 @@
       </div>
     </div>
 
+    <section class="payment">
+      <h5 class="payment-text">Forma de Pagamento</h5>
+      <hr/>
+
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label" for="customRadioInline1">Cartão de Crédito</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label" for="customRadioInline2">Boleto Bancário</label>
+      </div>
+
+    
+      <div class="form-row">
+        <div class="col-md-3 mb-3">
+          <label for="cardName" id="cardName">Nome no Cartão</label>
+          <input type="text" class="form-control" id="cardName" placeholder="Nome impresso no cartão" required>
+        </div>
+        <div class="col-md-2 mb-2">
+          <label for="inputExpiration" type="text" id="inputExpiration">Data de Expiração</label>
+        <select name="mes" class="form-control" id="inputMonth">
+          <option selected>Mês</option>
+      </select>
+      <select name="ano" class="form-control" id="inputYear">
+          <option selected>Ano</option>
+      </select>
+      </div>
+
+    </section>
+
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="assets/scripts/script.js"></script>
