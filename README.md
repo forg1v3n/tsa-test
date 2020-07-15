@@ -13,6 +13,6 @@
 
 <h2>PrintScreen do Andamento:</h2>
 
-![alt text](https://imgur.com/a/MMFrvyo)
+![Alt text](/relative/assets/img/print.png?raw=true
 
 <img src="https://img.shields.io/badge/The%20Dream-Came%20True-blue">
