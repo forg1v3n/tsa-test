@@ -4,7 +4,7 @@
 
 <h2>Descrição:</h2>
 
-- [ ] Criação da Interface de Cadastro
+- [x] Criação da Interface de Cadastro
 - [ ] Validação do Formulário
 - [ ] Testes
 - [ ] Entrega
@@ -13,6 +13,6 @@
 
 <h2>PrintScreen do Andamento:</h2>
 
-![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/print2.png)
+![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/print3.png)
 
 <img src="https://img.shields.io/badge/The%20Dream-Came%20True-blue">
