@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header class="header">
+    <h1 class="display-3">Cadastro</h1>
+    </header>
+
+    <div class="container">
+    <form>
+      <div class="row">
+        <div class="form-group col-4">
+    <label for="inputName">Nome</label>
+            <input type="text"
+            class="form-control"
+            id="inputName"
+            required/>
+            <label for="inputEmail">Email</label>
+            <input type="text"
+            class="form-control"
+            id="inputEmail"
+            required/>
+            <label for="inputCpf">CPF</label>
+            <input oninput="mask(this)"
+            type="text"
+            class="form-control"
+            id="inputCpf"
+            placeholder="000.000.000-00"
+            required/>
+            
+
+
+             <div class="form-row">
+              <div class="form-group2 col-md-6">
+                <label for="inputAddress">Endereço</label>
+                <input type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Rua, Número e Bairro"
+                required/>
+                </div>
+                <div class="form-group2 col-md-4">
+                  <label for="inputState" id="inputState">Estado</label>
+                  <select id="inputState"
+                  type="text"
+                  class="form-control"
+                  required/>
+                    <option selected>Selecione o Estado</option>
+                    </div>
+                  </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group2 col-md-6">
+                <label for="inputCep" id="inputCep">CEP</label>
+                <input type="text"
+                class="form-control"
+                id="inputCep"
+                placeholder="00.000-000"
+                required/>
+                </div>
+                <div class="form-group2 col-md-4">
+                  <label for="inputCity" id="inputCity">Cidade</label>
+                  <select id="inputCity"
+                  type="text"
+                  class="form-control"
+                  required/>
+                    <option selected>Selecione a Cidade</option>
+                    </div>
+                  </select>
+            </div>
+          </div>
+        </div>
+      </div>
+            </fieldset>
+          </form>        
+        </div>
+      </div>
+    </div>
+
+    <section class="payment">
+      <h5 class="payment-text">Forma de Pagamento</h5>
+      <hr/>
+
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label" for="customRadioInline1">Cartão de Crédito</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+        <label class="custom-control-label" for="customRadioInline2">Boleto Bancário</label>
+      </div>
+
+    
+      <div class="form-row">
+        <div class="col-md-3 mb-3">
+          <label for="cardName" id="cardName">Nome no Cartão</label>
+          <input type="text" class="form-control" id="cardName" placeholder="Nome impresso no cartão" required>
+        </div>
+        <div class="col-md-2 mb-2">
+          <label for="inputExpiration" type="text" id="inputExpiration">Data de Expiração</label>
+        <select name="mes" class="form-control" id="inputMonth">
+          <option selected>Mês</option>
+      </select>
+      <select name="ano" class="form-control" id="inputYear">
+          <option selected>Ano</option>
+      </select>
+      </div>
+    </section>
+
+    <form>
+      <div class="form-row">
+        <div class="col">
+          <label for="inputNumber" id="inputNumber">Número no Cartão</label>
+          <input type="text" class="form-control" id="inputNumber" placeholder="0000 0000 0000 0000" required>
+        </div>
+        <div class="col">
+          <label for="inputCvv" id="inputCvv">Código de Segurança</label>
+          <input type="text" class="form-control" id="inputCvv" placeholder="XXX" required>
+        </div>
+      </div>
+    </form>
+
+    <hr class="final">
+
+    <section class="paymentConfirm">
+      <h6 class="paymentText">
+        Seu cartão será debitado em R$ 49,00
+      </h6>
+    </section>
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="assets/scripts/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
