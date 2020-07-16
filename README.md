@@ -13,6 +13,6 @@
 
 <h2>PrintScreen do Andamento:</h2>
 
-![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/print3.png)
+![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/print4.png)
 
 <img src="https://img.shields.io/badge/The%20Dream-Came%20True-blue">
