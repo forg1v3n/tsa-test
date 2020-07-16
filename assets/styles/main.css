@@ -293,10 +293,66 @@ small#securityInfo {
   color: #EFF4F9;
   font-family: "Nunito", sans-serif;
   font-weight: bolder;
-  position: fixed;
-  left: 30px;
+  position: relative;
+  top: 30px;
+  left: -70px;
   bottom: 30px;
   width: 100%;
   text-align: left;
+}
+
+.navbar {
+  background-color: #17222D;
+  height: 65px;
+}
+
+a.nav-link1 {
+  font-family: "Nunito", sans-serif;
+  color: #EFF4F9;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 1100px;
+  margin-top: 18px;
+  width: 10px;
+}
+
+a.nav-link {
+  font-family: "Nunito", sans-serif;
+  color: #EFF4F9;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 1000px;
+  margin-top: -38px;
+  width: 10px;
+}
+
+a.nav-link1:hover {
+  text-decoration: none;
+  color: #EFF4F9;
+}
+
+a.nav-link1:active {
+  text-decoration: none;
+  color: #EFF4F9;
+}
+
+a.nav-link1:visited {
+  text-decoration: none;
+  color: #1188EE;
+}
+
+a.nav-link:hover {
+  text-decoration: none;
+  color: #EFF4F9;
+}
+
+a.nav-link:active {
+  text-decoration: none;
+  color: #EFF4F9;
+}
+
+a.nav-link1:visited {
+  text-decoration: none;
+  color: #1188EE;
 }
 /*# sourceMappingURL=main.css.map */
