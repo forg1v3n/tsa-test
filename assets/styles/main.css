@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+html {
+  width: auto;
+}
+
 body {
   background-color: white;
+  width: auto;
 }
 
 h1.display-3 {
@@ -9,7 +14,7 @@ h1.display-3 {
   background-color: #EFF4F9;
   color: #445566;
   height: 110px;
-  width: auto;
+  width: 100%;
   margin-top: auto;
   text-align: center;
 }
@@ -30,7 +35,7 @@ h1.display-3 {
   background-color: #EFF4F9;
   color: #17222D;
   height: 47px;
-  width: 500px;
+  width: 142%;
   margin-top: 4px;
   margin-right: 5px;
   border: none;
@@ -62,7 +67,7 @@ input[type=text] {
   padding: auto;
   margin: auto;
   margin-right: 10px;
-  width: 245px;
+  width: 143%;
 }
 
 #inputState {
@@ -70,7 +75,7 @@ input[type=text] {
   margin: auto;
   margin-left: 79px;
   margin-top: auto;
-  width: 242px;
+  width: 217%;
 }
 
 #inputCep {
@@ -78,7 +83,7 @@ input[type=text] {
   margin: auto;
   margin-top: 8px;
   margin-right: auto;
-  width: 250px;
+  width: 143%;
 }
 
 #inputCity {
@@ -86,7 +91,7 @@ input[type=text] {
   margin: auto;
   margin-left: 80px;
   margin-top: 0px;
-  width: 245px;
+  width: 213%;
 }
 
 label#inputState {
@@ -166,7 +171,7 @@ select#inputYear {
   font-weight: bolder;
   margin-top: -38px;
   margin-left: 185px;
-  width: 109px;
+  width: 80%;
   border: none;
   border-radius: 3px;
   -webkit-box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
@@ -193,5 +198,105 @@ select#inputCity.form-control {
   color: #445566;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
+}
+
+label#inputNumber {
+  margin-top: 13px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+input#inputNumber {
+  font-family: "Nunito", sans-serif;
+  color: #17222D;
+  font-weight: bold;
+  background-color: #EFF4F9;
+  width: 250px;
+  margin-top: auto;
+  margin-left: 480px;
+  margin-bottom: 80px;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+          box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+}
+
+input#inputCvv {
+  font-family: "Nunito", sans-serif;
+  color: #17222D;
+  font-weight: bolder;
+  background-color: #EFF4F9;
+  width: 252px;
+  margin-right: 353px;
+  margin-top: auto;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+          box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+}
+
+label#inputNumber {
+  margin-top: 8px;
+  margin-left: 482px;
+}
+
+label#inputCvv {
+  font-family: "Nunito", sans-serif;
+  color: #17222D;
+  font-weight: bolder;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+hr.final {
+  margin-top: -39px;
+  margin-left: 480px;
+  margin-right: 353px;
+  opacity: 30%;
+  border-top: 2px solid #445566;
+}
+
+h6.paymentText {
+  font-family: "Nunito", sans-serif;
+  color: #445566;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-left: 475px;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  background-color: #1188EE;
+  font-weight: bold;
+  height: 49px;
+  width: 19%;
+  margin-left: 475px;
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+
+small#securityInfo {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  margin-left: 475px;
+  margin-top: -10px;
+}
+
+.footer {
+  background-color: #1188EE;
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+}
+
+.nameOnFooter {
+  color: #EFF4F9;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  width: 100%;
+  text-align: left;
 }
 /*# sourceMappingURL=main.css.map */
