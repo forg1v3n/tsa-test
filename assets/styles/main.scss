@@ -6,9 +6,9 @@ $primary_3: #17222D;
 $primary_4: #445566;
 $my_font: 'Nunito', sans-serif;
 
-html {
+/*html {
     width: auto;
-}
+}*/
 
 body {
     background-color: white;
@@ -225,8 +225,8 @@ input#inputCvv {
     color: $primary_3;
     font-weight: bolder;
     background-color: $primary_1;
-    width: 248px;
-    margin-right: 353px;
+    width: 250px;
+    margin-right: 359px;
     margin-top: auto;
     border: none;
     border-radius: 3px;
@@ -243,7 +243,7 @@ label#inputCvv {
     color: $primary_3;
     font-weight: bolder;
     margin-top: 8px;
-    margin-left: 8px;
+    margin-left: 19px;
 }
 
 hr.final {
@@ -359,3 +359,49 @@ a.nav-link:hover {
     text-decoration: none;
     color: $primary_2;
  }
+
+ // Iniciando o CSS da lista.html // 
+
+
+h5.clientList {
+    font-family: $my_font;
+    color: $primary_2;
+    font-weight: bolder;
+    margin-left: 435px;
+    margin-top: 35px;
+}
+
+label#clientName {
+    font-family: $my_font;
+    font-weight: bolder;
+    color: $primary_3;
+    margin-left: 435px;
+    margin-top: 5px;
+    
+}
+
+input#clientName {
+    width: 500px;
+    height: 45px;
+    margin-top: 5px;
+    background-color: $primary_1;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
+}
+
+hr.firstHr {
+    margin-top: 20px;
+    width: 500px;
+    opacity: 30%;
+    border-top: 2px solid $primary_4;
+}
+
+table#tableClient {
+    font-family: $my_font;
+    table-layout: fixed;
+    width: 37%;
+    height: 500px;
+    margin-left: 432px;
+    margin-top: 50px;
+}
