@@ -5,14 +5,18 @@
 <h2>Descrição:</h2>
 
 - [x] Criação da Interface de Cadastro
-- [ ] Validação do Formulário
-- [ ] Testes
+- [x] Validação do Formulário
+- [x] Testes
 - [ ] Entrega
 
 > Status do Projeto: Em desenvolvimento :warning:
 
-<h2>PrintScreen do Andamento:</h2>
+<h2>PrintScreen da tela CADASTRO:</h2>
 
-![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/print4.png)
+![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/print5.png)
+
+<h2>PrintScreen da tela LISTA:</h2>
+
+![Screenshot](https://raw.github.com/forg1v3n/tsa-test/master/assets/img/lista1.png)
 
 <img src="https://img.shields.io/badge/The%20Dream-Came%20True-blue">
