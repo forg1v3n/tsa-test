@@ -9,7 +9,7 @@
 - [x] Testes
 - [ ] Entrega
 
-> Status do Projeto: Em desenvolvimento :warning:
+> Status do Projeto: Concluído :heavy_check_mark:
 
 <h2>PrintScreen da tela CADASTRO:</h2>
 
