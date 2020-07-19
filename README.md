@@ -7,7 +7,7 @@
 - [x] Criação da Interface de Cadastro
 - [x] Validação do Formulário
 - [x] Testes
-- [ ] Entrega
+- [x] Entrega
 
 > Status do Projeto: Concluído :heavy_check_mark:
 
